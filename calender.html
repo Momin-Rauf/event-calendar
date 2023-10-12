@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="calender.css">
+        <title>Calender</title>
+        <script src="calender.js" defer></script>
+        
+</head>
+<body>
+    <div class="top-div" >
+        <header>
+            <div>
+                <h1 id="heading" >Event calender</h1>
+                <div class="date-month" ><div id="year" ></div>
+                <div id="month"></div></div>
+            </div>
+            <div class="btn-div">
+                <button class="btn" id="btn1" onclick="prevDate()" >&lt;</button>
+                <button class="btn" id="btn2" onclick="nextDate()" >&gt;</button>
+            </div>
+        </header>
+        <div class="main-grid" id="abc">
+            <div class="weekDays">
+                <span class="week-day" >SUNDAY</span>
+                <span class="week-day" >MONDAY</span>
+                <span class="week-day" >TUESDAY</span>
+                <span class="week-day" >WEDNESDAY</span>
+                <span class="week-day" >THURSDAY</span>
+                <span class="week-day" >FRIDAY</span>
+                <span class="week-day" >SATURDAY</span>
+            </div>
+            <div class="date-slots" id="slots" >
+                
+            </div>
+           
+        </div>
+        <div id="event" >
+            
+        </div>
+        
+    </div>
+</body>
+</html>
